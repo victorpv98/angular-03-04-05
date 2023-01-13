@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./assets/img/home/background-home-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+@media (max-width: 992px) {
+    body {
+        background-image: url('./assets/img/home/background-home-tablet.jpg');
+        height: 100%;
+    }
+}
+
+@media (max-width: 840px) {
+    body {
+        background-image: url('./assets/img/home/background-home-mobile.jpg');
+        height: 100%;
+    }
+}

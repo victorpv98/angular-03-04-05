@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+}
+
+
+.line {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15.5px);
+  -webkit-backdrop-filter: blur(15.5px);
+  height: 2px;
+}
+
+.nav-container {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(15.5px);
+  -webkit-backdrop-filter: blur(15.5px);
+  padding: 25px;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.navbar .nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.navbar .home {
+    border-bottom: 2px solid white;
+}
+
+.navbar span {
+  font-weight: 800;
+  margin-right: 10px;
+  letter-spacing: normal;
+}
+
+@media (min-width: 992px) {
+    #navbarNav {
+        display: flex;
+        justify-content: center;
+    }
+}
